@@ -15,17 +15,17 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-card/30 backdrop-blur-sm border-t border-border/30 py-6 mt-auto">
+    <footer className="bg-card/30 backdrop-blur-sm border-t border-border/30 py-4 sm:py-6 mt-auto">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2 text-sm text-muted-foreground">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4">
+          <div className="flex items-center gap-2 text-xs sm:text-sm text-muted-foreground text-center sm:text-left">
             <span>© {currentYear} PHP Developer CV.</span>
             <span>Made with</span>
             <Heart className="h-4 w-4 text-red-500 fill-current" />
             <span>in Vietnam</span>
           </div>
           
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2 sm:gap-4">
             <Button variant="ghost" size="icon" className="hover:bg-primary/10 h-8 w-8">
               <Github className="h-4 w-4" />
             </Button>

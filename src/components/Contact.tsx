@@ -51,10 +51,10 @@ const Contact = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-secondary/10">
+    <section className="py-16 sm:py-20 px-4 bg-secondary/10">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
             Liên hệ với tôi
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -62,7 +62,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8">
           {/* Contact Info */}
           <div className="lg:col-span-1 space-y-6">
             <div>

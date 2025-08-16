@@ -6,12 +6,12 @@ import avatar from "@/assets/avatar.jpg";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6 lg:px-12 relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-12 relative overflow-hidden">
       <div className="container mx-auto relative z-10">
-        <div className="flex flex-col lg:flex-row items-start gap-12">
+        <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-12">
           {/* Avatar */}
           <div className="flex-shrink-0 animate-fade-in">
-            <div className="w-64 h-80 rounded-xl overflow-hidden border-2 border-primary/30 shadow-2xl">
+            <div className="w-48 h-60 sm:w-56 sm:h-72 lg:w-64 lg:h-80 rounded-xl overflow-hidden border-2 border-primary/30 shadow-2xl">
               <img 
                 src={avatar}
                 alt="PHP Developer"
@@ -21,8 +21,8 @@ const Hero = () => {
           </div>
 
           {/* Code Content */}
-          <div className="flex-1 animate-fade-in delay-300">
-            <div className="bg-[#1e1e1e] rounded-xl p-6 font-mono text-sm overflow-x-auto border border-primary/20">
+          <div className="flex-1 animate-fade-in delay-300 w-full">
+            <div className="bg-[#1e1e1e] rounded-xl p-4 sm:p-6 font-mono text-xs sm:text-sm overflow-x-auto border border-primary/20">
               <div className="text-gray-400">// Developer Information</div>
               <div className="mt-2">
                 <span className="text-blue-400">public class</span> <span className="text-yellow-300">DEVELOPER_INFO</span>

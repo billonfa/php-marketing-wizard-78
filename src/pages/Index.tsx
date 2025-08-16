@@ -26,7 +26,7 @@ const Index = () => {
     <div className="min-h-screen bg-background flex">
       <Navigation activeTab={activeTab} onTabChange={handleTabChange} />
       
-      <main className="flex-1 ml-20 lg:ml-80 relative overflow-hidden">
+      <main className="flex-1 md:ml-20 lg:ml-80 pt-16 md:pt-0 relative overflow-hidden">
         {isLoading && (
           <div className="absolute inset-0 z-50 bg-background/80 backdrop-blur-sm flex items-center justify-center">
             <div className="flex flex-col items-center gap-4">
